@@ -7,7 +7,8 @@
 
     - Ver o layout ideal para o site, dependendo do tamanho da tela do dispositivo.
     - Consultar os estados hover para todos os elementos interativos na página.
-    - <a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2">Visualizar Desafio<a/>
+    
+  - <a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2">Visualizar Desafio<a/>
 
 ### Desenvolvido em:
   - HTML
