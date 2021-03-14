@@ -1,0 +1,28 @@
+
+@keyframes bordas {
+   0%{
+      border-right: 1px solid var(--veryPaleBlue);
+      border-bottom: 1px solid var(--veryPaleBlue);
+      border-left: 1px solid var(--veryPaleBlue);
+      border-top: 1px solid var(--veryPaleBlue);
+   }
+   25% {
+      border-top: 1px solid var(--veryPaleBlue);
+   }
+   50% {
+      border-left: 1px solid var(--veryPaleBlue);
+      border-top: 1px solid var(--pink);
+   }
+   75% {
+      border-bottom: 1px solid var(--veryPaleBlue);
+      border-left: 1px solid var(--pink);
+      border-top: 1px solid var(--pink);
+   }
+   100% {
+      border-right: 1px solid var(--veryPaleBlue);
+      border-bottom: 1px solid var(--pink);
+      border-left: 1px solid var(--pink);
+      border-top: 1px solid var(--pink);
+   } 
+
+}

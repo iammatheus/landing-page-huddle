@@ -1,0 +1,88 @@
+:root{
+   font-size: 62.5%;
+
+   /* primary colors */
+   --pink: hsl(322, 100%, 66%);
+   --lightPink: hsl(321, 100%, 78%);
+   --lightRed: hsl(0, 100%, 63%);
+
+   /* neutral colors */
+   --veryDarkCyan: hsl(192, 100%, 9%);
+   --veryPaleBlue: #f5faff;
+   --lightGrayBlue: #7f919e;
+
+   /* social colors */
+   --twitter: #1DA1F2;
+   --facebook: #3b5998;
+   --instagram:  #E1306C;
+}
+
+
+/* class */
+.backgroundVeryPaleBlue{
+   background-color: var(--veryPaleBlue);
+}
+.font-poppins{
+   font-family: 'Poppins', sans-serif;
+}
+.container{
+   max-width: 1440px;
+   margin: 30px auto;
+   padding: 30px;
+   text-align: center;
+}
+
+*,
+html{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1.55rem;
+   font-weight: 600;
+   color: var(--veryDarkCyan);
+}
+h2 {
+   font-family: 'Poppins', sans-serif;
+   font-size: 3.5rem;
+   text-align: center;
+}
+a {
+   text-decoration: none;
+   cursor: pointer;
+   transition: .3s linear;
+}
+.btnStarted{
+   padding: 20px 100px;
+   border-radius: 50px;
+   background-color: var(--pink);
+   color: var(--veryPaleBlue);
+   box-shadow: 0px 10px 15px -13px var(--veryDarkCyan);
+}
+.btnStarted:hover{
+   background-color: var(--lightPink)
+}
+
+
+/* heading */
+.header-content {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+}
+.header-content a{
+   border: 1px solid var(--pink);
+   border-radius: 50px;
+   padding: 5px 25px;
+   color: var(--pink);
+   animation: bordas .5s linear;
+   animation-delay: .4s;
+}
+.header-content a:hover{
+   border-color: var(--lightPink);
+   color: var(--lightPink)
+}
+

@@ -1,0 +1,19 @@
+
+.bg-top{ background-image: url(../images/bg-section-top-desktop-1.svg); }
+.bg-top-2{ background-image: url(../images/bg-section-top-desktop-2.svg); }
+.bg-bottom{ background-image: url(../images/bg-section-bottom-desktop-1.svg); }
+.bg-bottom-2{ background-image: url(../images/bg-section-bottom-desktop-2.svg); }
+.bg-footer-top { background-image: url(../images/bg-footer-top-desktop.svg); }
+
+.bg-top,
+.bg-top-2,
+.bg-bottom,
+.bg-bottom-2,
+.bg-footer-top{
+   background-size: cover;
+   height: 220px;
+   background-repeat: no-repeat;
+   margin: -51px auto;
+   background-position: center;
+
+}
