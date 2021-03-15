@@ -13,7 +13,7 @@
 ### Desenvolvido em:
   - HTML
   - CSS
-  - Javascript (loading...)
+  - Javascript
 
 ### Layout:
   - 100% responsivo.
