@@ -5,11 +5,16 @@ section.presentation{
 }
 section.presentation h1 {
    font-size: 5rem;
+   animation: scale .3s linear;
 }
 section.presentation p {
    width: 100%;
    max-width: 460px;
    margin: 20px auto 60px;
+   animation: scale .3s linear;
+}
+section.presentation > a{
+   animation: btn .3s linear;
 }
 
 
@@ -23,6 +28,7 @@ section.numbers > .mockup{
    background-repeat: no-repeat;
    background-position: center;
    height: 720px;
+   animation: scale .3s linear;
 }
 section .numbers-content{
    margin-top: 100px;

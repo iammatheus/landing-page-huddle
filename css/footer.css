@@ -6,6 +6,7 @@ footer {
    font-weight: 400;
    margin-top: 50px;
    padding-bottom: 50px;
+   overflow-x: hidden;
 }
 footer > .container {
    margin: 0 auto;
@@ -68,19 +69,19 @@ footer > .container {
 }
 
 /* newsletter - form */
-form input[type=text], 
-form input[type=submit]{
+form input[type=email], 
+form button{
    border: 1px solid var(--veryPaleBlue);
    border-radius: 5px;
    outline: none;
 }
 
-form input[type="text"]{
+form input[type="email"]{
    width: 305px;
    padding: 10px;
    margin-right: 20px;
 }
-form input[type=submit]{
+form button{
    padding: 10px 30px;
    margin-top: 10px;
    background-color: var(--pink);
@@ -89,13 +90,11 @@ form input[type=submit]{
    cursor: pointer;
    transition: .3s linear;
 }
-form input[type=submit]:focus{
-   border-color: var(--veryPaleBlue)
-}
-form input[type=text]:focus{
-   border-color: var(--lightPink)
-}
-form input[type=submit]:hover{
+form button:hover{
    background-color: var(--lightPink);
    border-color: var(--lightPink);
+}
+
+form input[type="email"].error{
+   border-color: var(--lightRed)
 }

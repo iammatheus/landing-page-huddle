@@ -42,12 +42,12 @@
              <!-- <img src="images/screen-mockups.svg" alt="">  -->
             <div class="mockup"></div>
             <div class="numbers-content">
-               <div class="numbers-items">
+               <div class="numbers-items" data-anime="left">
                   <img src="images/icon-communities.svg" alt="">
                   <h2>1.4k+</h2>
                   <p>Communities Formed</p>
                </div>
-               <div class="numbers-items">
+               <div class="numbers-items" data-anime="right">
                   <img src="images/icon-messages.svg" alt="">
                   <h2>2.7m+</h2>
                   <p>Messages Sent</p>
@@ -61,14 +61,14 @@
          <section class="about-content backgroundVeryPaleBlue">
             <div class="about-content-items container">
                <div class="items">
-                  <div class="text">
+                  <div class="text" data-anime="left">
                      <h2>Grow Together</h2>
                      <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
                         Think of the insightful conversations you miss out on with a feedback form. </p>
                   </div>
                   <div class="container-img">
                      <!-- <img src="images/illustration-grow-together.svg" alt=""> -->
-                     <div class="together"></div>
+                     <div class="together" data-anime="right"></div>
                   </div>
                </div>
             </div>
@@ -79,10 +79,10 @@
             <div class="about-content-items container">
                <div class="items">
                   <div class="container-img">
-                     <div class="flowing"></div>
+                     <div class="flowing" data-anime="left"></div>
                      <!-- <img src="images/illustration-flowing-conversation.svg" alt=""> -->
                   </div>
-                  <div class="text text-2">
+                  <div class="text text-2" data-anime="right">
                      <h2>Flowing Conversations</h2>
                      <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
                         just-in-time loading for a more natural flow. </p>
@@ -95,13 +95,13 @@
          <section class="about-content backgroundVeryPaleBlue">
             <div class="about-content-items container">
                <div class="items">
-                  <div class="text">
+                  <div class="text" data-anime="left"">
                      <h2>Your Users</h2>
                      <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
                         once signed in to your app, your users can start chatting immediately.</p>
                   </div>
                   <div class="container-img">
-                     <div class="users"></div>
+                     <div class="users" data-anime="right"></div>
                      <!-- <img src="images/illustration-your-users.svg" alt=""> -->
                   </div>
                </div>
@@ -111,15 +111,15 @@
       </article>
 
       <section class="get-started container">
-         <h2 class="txt-title">Ready To Build Your Community?</h2>
-         <a class="btnStarted">Get Started For Free</a>         
+         <h2 class="txt-title" data-anime-h2="scale">Ready To Build Your Community?</h2>
+         <a class="btnStarted" data-anime="scale">Get Started For Free</a>         
       </section>
    </main> 
 
    <div class="bg-footer-top"></div>
    <footer>
          <div class="container">
-            <div class="contact">
+            <div class="contact" data-anime="left">
                <img class="logo-footer" src="images/logo-footer.svg" alt="">
 
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices squis sem.</p>
@@ -143,20 +143,21 @@
                </div>
             </div>
 
-            <div class="newsletter">
+            <div class="newsletter" data-anime="right">
                <h3>NEWSLETTER</h3>
                <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We'll never send you span or pass on your email address</p>
 
-               <form action="#">
-                  <input class="backgroundVeryPaleBlue" type="text" name="email" id="email">
-                  <input type="submit" name="btnSubmit" id="btnSubmit" value="Subscribe">
+               <form name="form">
+                  <input type="email" name="email" id="email" class="backgroundVeryPaleBlue" required>
+                  <button type="submit" name="send" id="send" onclick="sendEmail(form.email.value)">Subscribe</button>
                </form>
             </div>
             
          </div>
    </footer>
    
-   <script src="js/script.js"></script>
+   <script src="js/animate.js"></script>
+   <script src="js/form.js"></script>
    <script src="https://kit.fontawesome.com/308a12915f.js" crossorigin="anonymous"></script>
 </body>
 </html>

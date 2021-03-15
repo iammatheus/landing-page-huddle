@@ -30,6 +30,7 @@
    margin: 30px auto;
    padding: 30px;
    text-align: center;
+   overflow-x: hidden;
 }
 
 *,
@@ -43,6 +44,7 @@ body {
    font-size: 1.43rem;
    font-weight: 600;
    color: var(--veryDarkCyan);
+   overflow-x: hidden;
 }
 h2 {
    font-family: 'Poppins', sans-serif;
@@ -73,16 +75,18 @@ a {
    align-items: center;
    justify-content: space-between;
 }
+.header-content > img {
+   animation: left .3s;
+}
 .header-content a{
    border: 1px solid var(--pink);
    border-radius: 50px;
    padding: 5px 25px;
    color: var(--pink);
    animation: bordas .5s linear;
-   animation-delay: .4s;
 }
 .header-content a:hover{
    border-color: var(--lightPink);
-   color: var(--lightPink)
+   color: var(--lightPink);
 }
 
